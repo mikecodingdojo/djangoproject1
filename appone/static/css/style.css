@@ -1,0 +1,71 @@
+/*CSS reset settings here*/
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+p,
+blockquote,
+table,
+th,
+td,
+embed,
+object {
+    font-family: 'Abel', sans-serif;
+    
+    padding: 0;
+    margin: 0;
+    border: 0;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    height: 800px; 
+    padding-top: 30px;
+    
+
+}
+
+.formbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    height: 300px;
+    width: 400px;
+    padding-left: 10px;
+}
+.items{
+
+    display: inline-block;
+    width: 300px;
+}
+
+#button{
+    width: 60px;
+    height: 20px;
+    background-color: rgb(197, 195, 195);
+    border-bottom: 3px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+.formbox input{
+    border: 1px solid black;
+    width: 278px;
+}
